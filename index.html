@@ -17,6 +17,10 @@
             width: 200px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
+        div{
+            width:80%;
+            heigth:80%;
+            background-color:green;
         #btnSi{
             background-color: rgb(33, 233, 33);
             height: 40px;
@@ -52,8 +56,10 @@
     </script>
 </head>
 <body>
-    <h3>¿Quieres ser mi novia?</h3>
-    <input type="button" onclick="accionParaCuandoEllaDigaQueSi()" id="btnSi" value="Si" />
-    <input type="button" id="btnNo" onmouseover="mueveElBoton()" value="No" />
+    <div>
+        <h3>¿Quieres ser mi novia?</h3>
+        <input type="button" onclick="accionParaCuandoEllaDigaQueSi()" id="btnSi" value="Si" />
+        <input type="button" id="btnNo" onmouseover="mueveElBoton()" value="No" />
+    </div>
 </body>
 </html>
